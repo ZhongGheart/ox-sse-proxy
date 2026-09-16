@@ -1,0 +1,19 @@
+target/
+.DS_Store
+*.log
+*.pid
+.cache/
+.pytest_cache/
+__pycache__/
+.env
+.env.*
+*.env
+env/
+secret/
+secrets/
+*.secret
+*.secrets
+*.key
+
+# Keep the reproducible Rust dependency lockfile tracked.
+!Cargo.lock
